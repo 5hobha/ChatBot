@@ -1,0 +1,106 @@
+<!-- <button mat-fab (click)="onClickUserInfo()">
+  <mat-icon>person</mat-icon>
+</button> -->
+<div class="chat-container">
+  <mat-card class="main-card">
+    <mat-list class="chat-list">
+      <mat-list-item *ngFor="let m of messages" [ngClass]="(m.name == 'You')? 'chat-list-item':'' " >
+				<!-- [ngClass]="[(message.action === undefined && message.from.id === user.id)? 'chat-list-item': '']" -->
+				<img mat-list-avatar  src="https://api.adorable.io/avatars/285/170628.png" *ngIf="m.name != 'Agent'">
+				<img mat-list-avatar  src="https://api.adorable.io/avatars/285/1361.png" *ngIf="m.name == 'Agent'">
+				
+       <h4 mat-line >
+          <b>{{m.name}}</b>
+        </h4>
+        <p mat-line >
+          <span> {{m.message}} </span>
+        </p>
+        <!-- <p mat-line *ngIf="message.action === action.JOINED" class="chat-notification">
+          <span> <b>{{message.from.name}}</b> joined to the conversation. </span>
+        </p>
+        <p mat-line *ngIf="message.action === action.RENAME" class="chat-notification">
+          <span> <b>{{message.content.previousUsername}}</b> is now <b>{{message.content.username}}</b> </span>
+        </p> -->
+      </mat-list-item>
+    </mat-list>
+    <div class="chat-footer-container">
+      <mat-icon>message</mat-icon>
+      <mat-form-field class="chat-input">
+        <input matInput 
+               #inputMessage 
+               maxlength="140" 
+               placeholder="Type your message" 
+               [(ngModel)]="message" 
+               (keyup.enter)="sendMessage(message)">
+        <mat-hint align="end">{{inputMessage.value.length}}/140</mat-hint>
+      </mat-form-field>
+    </div>
+  </mat-card>
+</div>
+
+
+<!-- 
+	<div class="">
+		<div class="menu-wrap">
+			<nav class="menu">
+				
+			</nav>
+		</div>
+		<button class="close-button"></button>
+		<button class="menu-button" id="open-button"></button>
+	</div>
+	<section id="demo">
+		<div class="vertical-align">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12 noPadding">
+						<div class="card no-border">
+
+							<div id="chat" class="conv-form-wrapper">
+								<header>
+								
+								</header>
+								<div class="wrapper-messages" *ngFor="let message of messages">
+									<div class="spinLoader   hidden"></div>
+									<div id="messages">
+										{{message}}
+									</div>
+
+								</div>
+							
+								<form id="convForm" #chat = "ngForm" class="convFormDynamic" (ngSubmit)= "sendMessage(chat.value)">
+									<div class="options dragscroll chips_cont">
+										
+									</div>
+									<div id="userinputMessage">
+										
+                    				<input type="text" name = "message" id="wisdom" rows="1" placeholder="Type Here" class="userInputDynamic" ngModel>
+                  						
+										<button type="submit" class="submit" ><i class="fa fa-paper-plane"></i></button>
+										<span class="clear"></span>
+									</div>
+									
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<script>
+	$(window).load(function () {
+		resetChat();
+	});
+</script>
+<script>
+	$(".range-example-input").asRange({
+		// options here
+		step: 1,
+		range: false,
+		min: 1,
+		max: 15
+	});
+</script> -->

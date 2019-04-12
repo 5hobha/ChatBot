@@ -1,0 +1,148 @@
+.o2o-page .owl-stage-outer:after,.o2o-page .owl-stage-outer:before{content:'';z-index:1;position:absolute}
+.o2o-page{overflow-x:hidden}
+.o2o-page .banner-content br,.o2o-page .section-title .sub-title-heading br{display:none}
+.marketo-commerce-container .what-offer-block{min-height:initial;text-align:left;transform:none;transition:none;padding:50px;height:450px;background-color:#fff}
+.marketo-commerce-container .what-offer-block h3{margin-top:0}
+.marketo-commerce-container .what-offer-block ul{margin-top:30px}
+.marketo-commerce-container .what-offer-block ul li{font-size:16px;margin-bottom:50px;position:relative;padding-left:60px}
+.marketo-commerce-container .what-offer-block ul li:last-child{margin-bottom:0}
+.marketo-commerce-container .what-offer-block ul li img{margin-right:40px;width:30px;height:30px;position:absolute;left:0;top:50%;transform:translateY(-50%)}
+.o2o-page .header-container{background:url(../images/o2o_header.png) center/cover no-repeat;height: 73vh;}
+.o2o-page .banner-content .sub-title{margin-top:20px;font-size:22px}#marketo-built{overflow:hidden}
+#marketo-key-features .what-offer-block{background-color:#fff;transform:none;transition:none;padding:10px;box-shadow:0 0 10px 1px rgba(0,0,0,.08);min-height: 260px; height: initial;}
+#marketo-key-features .what-offer-block:hover,.marketo-commerce-container .what-offer-block:hover{box-shadow:0 40px 40px rgba(0,0,0,.16);transform:translate(0,-20px);transition:all 250ms cubic-bezier(.02,.01,.47,1) 0s}
+#marketo-key-features .what-offer-block h3{font-size:18px;font-weight:400; margin-top: 0;}
+.second-case{background-image:url(../images/mobile-application.png)}
+.show_case_1{background-color:#fff}
+.o2o-page .home-section{padding:50px 200px}p.view_design>a.google-play-marketo{background-color:transparent;padding:0;margin-left:30px}
+.marketo-offline-content>div{width:370px;padding:20px;box-shadow:0 0 10px 1px rgba(0,0,0,.08);text-align:justify;line-height:25px;font-size: 18px;}
+#marketo-key-features .what-offer-block p{margin-top:20px}
+.marketo-offline-content{margin-right:6%;padding-top:10%}#marketo-offline .case-study>div{display:inline-block;float:left}
+.marketo-offline-image{width:60%;cursor:zoom-in;position:relative}
+.marketo-offline-image img{width:100%}
+/*.o2o-page .owl-stage-outer:before{bottom:110px;background:url(../images/desktop_stand.png) no-repeat;width:314px;height:32px;left:50%;transform:translateX(-50%)}*/
+.o2o-page .owl-stage-outer:before{bottom:0;background:url(../images/desktop_stand.png) no-repeat;width:314px;height:32px;left:50%;transform:translateX(-50%)}
+/*.o2o-page .owl-stage-outer:after{left:0;top:0;bottom:140px;right:0;border:8px solid #d6d6d6;border-radius:10px}*/
+.o2o-page .owl-stage-outer:after{left:0;top:0;bottom:27px;right:0;border:8px solid #d6d6d6;border-radius:10px}
+.o2o-page .owl-carousel .owl-item img{width:80%!important;border-radius:9px}
+/*.o2o-page .owl-carousel .owl-stage-outer{padding-bottom:150px;max-width:80%;margin:0 auto; margin-bottom: -80px;}*/
+.o2o-page .owl-carousel .owl-stage-outer{padding-bottom:30px;max-width:80%;margin:0 auto; margin-bottom:0;}
+.o2o-page #owl-slider-built .owl-dots{display:none}
+.o2o-page .show_case_1{box-shadow:0 0 0 2px rgba(0,0,0,.04);left:200px;top:70px}
+.o2o-page .icon_box{width:80px;height:80px}
+.o2o-page .icon_box_p img{width:7%!important;left:266px!important;position:absolute;top:70px}
+.o2o-page .owl-next,.o2o-page .owl-prev{display:inline-block;position:absolute;top:50%;transform:translateY(-50%);height:38px;width:22px;opacity:.2}
+.o2o-page .showCaseModal1 img{max-width:inherit}
+.o2o-page .owl-next{float:right;right:0%;background:url(../images/right_arrow.png) no-repeat;background-size:contain;text-indent:2800px;filter:grayscale(100%);-webkit-filter:grayscale(100%)}
+.o2o-page .owl-prev{float:left;left:0%;background:url(../images/left_arrow.png) no-repeat;background-size:contain;text-indent:-6840px;filter:grayscale(100%);-webkit-filter:grayscale(100%)}
+.o2o-page #showcase .show_case{background-size:430px;margin-left:-100px;background-position:700px}
+.showCaseModal1{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.9);z-index:9999;display:none;overflow-y:scroll;text-align:center}
+.showCaseModal1 .showCaseModal-close{display:block;position:fixed;top:30px;right:30px;width:40px;height:40px;border-radius:50%;border:1px solid #eee;line-height:35px;font-size:20px;color:#eee;text-align:center;cursor:pointer;z-index:99999;background-color:#000}
+.showCaseModal1 img{width:auto;max-width:inherit;position:relative;margin-top:50px}
+.marketo-tooltip{color:#fff;background-color:#000;padding:5px;position:fixed;z-index:1000;display:none}
+.o2o-page .section-title .sub-title-heading{margin-bottom:15px}
+.o2o-page .b2b-container .show_case{background:0 0;display:inline-block}
+.o2o-page .b2b-container .show_case_1{background-color:#f4f5f9;left:0;top:100px;width:450px}
+.b2b-container .marketo-offline-image{width:60%}
+.o2o-page .b2b-container .icon_box_p img{width:9%!important;left:211px!important;position:absolute;top:75px;background: #0169b4;border: 0;}
+.market-logo{width:180px}
+.o2o-page .show_case_1 p.icon_box_p > img {background: #0169b4;border: 0;}
+.o2o-page.overflow {overflow: hidden;}
+#marketo-built > .container { max-width: 1040px; width: 100%;}
+
+
+.dcsmodal .submit-button input[type=number] { background: #fff; border: 1px solid #ccc;color: #5c5c5c; padding: 12px 20px;}
+.o2o-page .submit-button input { width: 200px; padding: 13px 50px;}
+.header-container-o2o .banner-content{top: 50%; margin-top: 60px;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1480px)
+{
+  .b2b-container .marketo-offline-image{margin-top:100px;width:50%}
+  .o2o-page .b2b-container .show_case_1{top:100px}
+}
+@media screen and (max-width:1379px)
+{
+  .o2o-page .home-section{padding:50px 60px}
+  .o2o-page .owl-next{right:-3%}
+  .o2o-page .owl-prev{left:-3%}
+  #marketo-key-features .what-offer-block{min-height:260px}
+}
+
+@media screen and (max-width:1120px) 
+{
+  
+}
+@media screen and (max-width:1024px)
+{
+  .marketo-offline-image{width:95%;margin-top:50px}#marketo-offline .case-study>div{display:inline-block;float:none}#marketo-offline .case-study{text-align:center}
+  .marketo-offline-content>div{width:100%}
+  #marketo-key-features .what-offer-block h3{font-size: 16px;}
+  #marketo-key-features .what-offer-block{min-height:260px}
+  .o2o-page .show_case_1{left:50%;transform:translateX(-50%)}
+  .o2o-page .owl-next{right:0}
+  .o2o-page .owl-prev{left:0}
+  .o2o-page .second-case{background-image:none}
+  .b2b-container .marketo-offline-image{width:100%;margin-top:0}
+  .o2o-page .b2b-container .show_case_1{left:50%;background-color:transparent;padding-left:0;padding-right:0;box-shadow:none}
+  .o2o-page .b2b-container .icon_box,.o2o-page .b2b-container .icon_box_p{display:none}
+  .o2o-page .second-case{background-image:none}#marketo-offline .case-study,.o2o-page .b2b-container .show_case{display:flex;flex-direction:column-reverse;justify-content:flex-end}
+}
+@media screen and (max-width:768px)
+{
+  .o2o-page .home-section{padding:50px 20px}
+  #marketo-key-features .what-offer-block h3{min-height:auto;margin-top: 10px;}
+  .o2o-page #owl-slider-built .owl-dots{display:block;margin-top:50px}
+  .o2o-page .owl-nav,.o2o-page .owl-stage-outer:after,.o2o-page .owl-stage-outer:before{display:none}
+  #marketo-key-features .what-offer-block{min-height:220px;}
+  .o2o-page .banner-content .sub-title{font-size:16px}
+  .o2o-page .banner-content h1{font-size:22px}
+  .o2o-page .owl-carousel .owl-stage-outer{max-width:100%;padding-bottom:0; margin-bottom: -20px;}
+  .o2o-page .owl-carousel .owl-item img{width:100%!important}
+  .marketo-commerce-container .what-offer-block { height: auto;}
+  #marketo-key-features .what-offer-block:hover,.marketo-commerce-container .what-offer-block:hover,.marketo-offline-content>div:hover{transform:none;box-shadow:0 0 10px 1px rgba(0,0,0,.08)}
+  .marketo-commerce-container .what-offer-block ul li img{position:initial;display:block;margin:0 auto}
+  .marketo-commerce-container .what-offer-block ul li{text-align:center;padding-left:0}
+  .marketo-commerce-container .what-offer-block h3{text-align:center;padding-bottom:20px}
+  .o2o-page .section-title .sub-title-heading br{display:block}
+  .o2o-page .b2b-container .show_case{padding:0}
+}
+@media screen and (max-width:767px)
+{
+  .o2o-page #showcase .show_case,p.view_design>a.google-play-marketo{margin-left:0}
+  .o2o-page .b2b-container .show_case_1{width:100%;left:0}
+  .b2b-container .marketo-offline-image{width:100%}
+  .market-logo{width:150px}
+  .marketo-offline-image{margin-top:0}
+  .o2o-page #showcase{display:block}
+  .o2o-page .show_case_1{position:relative;max-width:100%;transform:none;left:0}
+  .o2o-page p.view_design>a{width:135px;height:45px;display:inline-block;margin-right:17px}p.view_design>a.google-play-marketo img{height:100%}
+  .marketo-commerce-container .what-offer-block{padding:50px 20px; height: auto;}
+  .o2o-page .icon_box_p{position:absolute;left:50%;top:70px;width:120px;height:120px;margin-left:-55px;text-align:center}
+  .o2o-page .icon_box_p img{max-width:30%;position:initial;width:auto!important;height:auto}
+}
+@media screen and (max-width:480px)
+{
+  .marketo-offline-image{width:100%}
+  .o2o-page .banner-content .sub-title{font-size:15px;line-height:22px}
+  .o2o-page .banner-content h1{font-size:22px}
+  .o2o-page .banner-content br{display:block}
+  
+  p.view_design>a {margin-top: 10px;}
+  .o2o-page p.view_design>a { margin-right: 0;}
+  .o2o-page .show_case_1 {top: 10px;}
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+#marketo-key-features .what-offer-block   { height: initial; min-height: 220px;}
+}

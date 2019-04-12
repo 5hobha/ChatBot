@@ -1,0 +1,224 @@
+body,html{
+    height: 100vh;
+    overflow: hidden;
+    overscroll-behavior: contain;
+}
+#talkchat{z-index: 999997;
+    cursor: pointer;
+    height: 40px;
+    width: 248px; margin: 0px !important;
+    top: auto !important;
+    bottom: 30px !important;
+    right: 50px !important;
+    left: auto !important; box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    display: block; background: #0255a8; position: fixed; border-radius: 150px;}
+#talkchat p{font-size: 17px; vertical-align: middle; color: #fff; text-align: center; line-height: 40px;}
+#talkchat p i{margin-right: 10px;}
+#chatconnect{max-width: 479px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    transition: all 300ms ease-in-out;
+    box-shadow: none;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+#chatconnect iframe{
+    width: 100%;
+    height: 100%; 
+    border: none;    
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/*Chat Iframe*/
+.noPadding{padding: 0 !important;}
+div.conv-form-wrapper div.options div.option{border: 1px solid #ce1920; color: #ce1920}
+#demo .card header{
+    height: 80px;
+    padding: 0 !important;
+    background: #0054a5;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+}
+#demo .card header div{width: 100%; margin: 0 0 0 10px;text-align:center;}
+#demo .card header div img{    margin: 5px;
+    margin-bottom: -50px;}
+#demo .card header div.closeChat{position: fixed;
+    /* right: 0px; */
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    right: 20px;}
+#demo .card header div.closeChat img{
+    width: 20px;
+    height: 20px;}
+div.conv-form-wrapper div.wrapper-messages{margin-top: 0;background: #f0f3f6; height: calc(100vh - 48px);}
+form.convFormDynamic{margin: 50px 0 50px 0 ; box-shadow: none;}
+.menu-button, .close-button{margin: 10px 15px 10px 15px;}
+div.conv-form-wrapper div.wrapper-messages {
+    margin-top: 0;
+    background: #fff;
+     height: calc(100vh - 140px);
+    /* height: calc(595px - 50px); */
+    top: 80px;
+    overflow: scroll !important;
+    position: relative;
+    width: 100%;
+}
+form.convFormDynamic div#userinputMessage {
+    margin: 0; bottom: 0px; width: 100%; position: fixed;    z-index: 999;
+}
+#chat.conv-form-wrapper{    height: 100%;
+    padding-bottom: 10px;
+    overflow-y: hidden;}
+div.conv-form-wrapper div#messages {
+    width: 100%;  padding-left: 15px; padding-right: 15px; max-height: 100% !important; margin-top: 5% !important;padding-top: 15px;
+}
+div.conv-form-wrapper div#messages div.message{    margin-bottom: 20px; background-color: #ce1920; margin-top: 0;}
+div.conv-form-wrapper div#messages div#loader.message{margin-bottom: -5px; margin-left: 0px;}
+form.convFormDynamic button.submit{background: transparent; padding-right: 40px;}
+form.convFormDynamic button.submit i.fa.fa-paper-plane{color: #ce1920}
+.taskbox-item-text img{
+    width: 22px;
+    margin-right: 12px;
+    margin-left: 10px;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.taskbox-item-text img.services{width: 24px; max-height: 24px;}
+.bookForm h3{font-size: 15px; margin-top: 10px; margin-bottom: 0px; line-height: 22px; font-weight: 600;}
+label.control-label{font-size: 12px; font-weight: 600;}
+.form_checkin{padding-right: 10px;}
+.bookForm .row-fluid button#search{background: #ce1920; color: #fff; border: 1px solid #ce1920;}
+.owl-image img{height: 100px;}
+.owl-text{width: 100%; clear: both;}
+.owl-text h4{padding: 0 10px; font-size: 14px; display: block;}
+.owl-carousel .owl-nav{text-align: center;}
+
+.owl-carousel .owl-nav button:focus{outline: 0;}
+div.conv-form-wrapper div#messages div.message.carousel-slider{padding: 10px 10px 5px; margin-bottom: 30px;padding-left: 0;}
+.owl-carousel .owl-nav .disabled {
+    opacity: .5;
+    cursor: default;
+}
+.owl-carousel .owl-stage-outer{
+    border-radius: 0;
+}
+.owl-text h4.heading {
+    padding: 0 10px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+    max-height: 65px;
+    overflow: hidden; 
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+.owl-text p.date {
+    text-align: left;
+    font-size: 13px;
+    height: 22px;
+    overflow: hidden;
+}
+.owl-text div.location {
+    text-align: left;
+    font-size: 13px;
+    height: 40px;
+    overflow: hidden;
+    float:left;
+    line-height: 20px;
+    width: calc(100% - 20px);
+}
+.facilties .owl-image >img{
+    border-radius: 50%;
+    width: 65px !important;
+    height: auto;
+}
+.carousel_cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+}
+.owl-text div.location_icon{height: 40px; width: 16px; float: left; line-height: 20px; color: #0255a8;}
+.owl-text p.date i.fa, .owl-text div.location_icon i.fa {
+    color: #0255a8;
+}
+.facility.owl-carousel .owl-nav{top: 100%; left: 50%;}
+p.singapore{    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;}
+@media(max-width: 480px){
+ #chatconnect{    width: 100%; right: 0 !important;
+    height: 100vh;}
+ #chatconnect iframe {
+    width: 101%;
+    height: 100vh;
+}
+div.conv-form-wrapper div.wrapper-messages{height: calc(100vh - 130px) !important; width: 100%;}
+#talkchat{    width: 230px;
+    right: 0 !important;
+    margin: 0 15% !important;}
+}
+
+.form_data_wrapper{
+    width: 100%;
+}
+.link-list a>img{
+width: 22px;
+}
+.fixed_wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    background-color: #fff;
+    transition: transform 0.3s;
+    transform: translatex(100%);
+    overflow: auto;
+}
+.fixed_wrapper.show{
+    transform: translatex(0%);
+}
+.fixed_wrapper >div{
+    bottom: 0;
+    height: auto !important;
+    max-width: 100%;
+    top: 0;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 70px;
+}
+.cross_icon{
+    width: 48px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+.owl-item{
+
+}
+.facility.owl-carousel .owl-nav{
+    display: none !important;
+}
+.owl-carousel.owl-theme.owl-loaded.owl-drag.facility{
+    width: 100%;
+}
+.facility.owl-carousel.owl-drag .owl-item{
+    padding: 10px 10px 5px;
+    border: solid 1px #e6e6e6;
+    border-radius: 4px;
+}
+
+.facility.owl-carousel .owl-stage{
+display: flex;
+}
