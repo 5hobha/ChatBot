@@ -63,8 +63,8 @@ app.use(express.urlencoded({
     extended: false
 }));
 
-app.use(express.static(path.join(__dirname, 'dist/ChatBoatNew')));
-app.use('/', express.static(path.join(__dirname, 'dist/ChatBoatNew')));
+app.use(express.static(path.join(__dirname, 'dist/ChatBoat')));
+app.use('/', express.static(path.join(__dirname, 'dist/ChatBoat')));
 
 
 var port = config.port;
