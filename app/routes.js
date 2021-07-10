@@ -1,8 +1,4 @@
 'use strict';
-// /**
-//  * Admin Routes.
-// Author Name: Rohit Shukla
-//  */
 
 var dialog = require('./controllers/dialogflow');
 //     config = require('./../../config/config'),
